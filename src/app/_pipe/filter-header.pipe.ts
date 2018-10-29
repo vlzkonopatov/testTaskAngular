@@ -12,10 +12,9 @@ export class FilterHeaderPipe implements PipeTransform {
     this.element = value;
     // console.log(this.element);
 
-    let item = [];
-    item.push(this.objToArray(this.element));
+    let item = this.objToArray(this.element);
 
-    console.log(this.headerItem);
+    console.log(item);
 
 
     return this.headerItem;
@@ -27,16 +26,15 @@ export class FilterHeaderPipe implements PipeTransform {
 
     let obj = Object.keys(object).map((k) => k);
 
-    this.headerItem.push(obj.map((key) => {
+   return obj.map((key) => {
         console.log(key);
 
         if (typeof object[key] === "object") {
-          this.objToArray(object[key])
+          return {"title": key, "value": this.objToArray(object[key])}
         }
 
-        return key
-      })
-    );
+        return {"title": key}
+      });
   }
 
 }
