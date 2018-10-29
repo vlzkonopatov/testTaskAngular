@@ -6,13 +6,15 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-
   @Input() option: OptionTable;
   @Input() source: Table;
-
-  constructor() { }
+  objectKeys = Object.keys;
+  constructor() {
+  }
 
   ngOnInit() {
+    // console.log(this.source);
+
   }
 
 

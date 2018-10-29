@@ -1,5 +1,6 @@
 interface OptionTable {
   sort: string;
+  columns: any;
 }
 interface Table {
   id: string;

@@ -8,7 +8,20 @@ import {finalize} from 'rxjs/operators';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit  {
-  options: OptionTable = { sort: '' };
+  options: OptionTable = {
+    sort: '',
+    columns: {
+      id: 'номер',
+      person: 'Болансасодержатель',
+      improvement: 'Благоустройство',
+      intercoms: 'Домофоны',
+      roof: 'Кровля',
+      all: 'всеого',
+      done: 'выполнено',
+      inControl: 'на контроле',
+      rejected: 'Отклонено',
+    }
+  };
   data: Table[];
   load: boolean;
 

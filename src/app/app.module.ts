@@ -7,13 +7,15 @@ import { TableComponent } from './table/table.component';
 import { AppService } from './app.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { LoaderComponent } from './loader/loader.component';
+import { FilterHeaderPipe } from './_pipe/filter-header.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
-    LoaderComponent
+    LoaderComponent,
+    FilterHeaderPipe
   ],
   imports: [
     HttpClientModule,
