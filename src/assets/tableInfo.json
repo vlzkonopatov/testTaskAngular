@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "person": "ГБУ Жилищных районов крылатское",
+    "improvement": {
+      "all": 123,
+      "done":  12,
+      "inControl": 0,
+      "rejected" : 0
+    },
+    "intercoms": {
+      "all": 123,
+      "done":  12,
+      "inControl": 0,
+      "rejected" : 0
+    },
+    "roof": {
+      "all": 123,
+      "done":  12,
+      "inControl": 0,
+      "rejected" : 0
+    }
+  },
+  {
+    "id": 1,
+    "person": "ЖСК нора",
+    "improvement": {
+      "all": 1,
+      "done":  2,
+      "inControl": 0,
+      "rejected" : 0
+    },
+    "intercoms": {
+      "all": 3,
+      "done":  1,
+      "inControl": 0,
+      "rejected" : 0
+    },
+    "roof": {
+      "all": 123,
+      "done":  12,
+      "inControl": 0,
+      "rejected" : 0
+    }
+  },
+  {
+    "id": 2,
+    "person": "ЖКХ ЖУК",
+    "improvement": {
+      "all": 0,
+      "done":  2,
+      "inControl": 0,
+      "rejected" : 4
+    },
+    "intercoms": {
+      "all": 5,
+      "done":  6,
+      "inControl": 7,
+      "rejected" : 1
+    },
+    "roof": {
+      "all": 3,
+      "done":  2,
+      "inControl": 0,
+      "rejected" : 0
+    }
+  }
+]

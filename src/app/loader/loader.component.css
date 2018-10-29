@@ -1,0 +1,4 @@
+.image-loader {
+  background-image: url("../../assets/image/ajax-loader.gif");
+  background-size: cover;
+}
